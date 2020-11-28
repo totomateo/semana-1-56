@@ -1,2 +1,2 @@
-# semana-1-Grupo56
+# semana-1-56
 Proyecto grupo 56 MINTIC Ciclo3 
