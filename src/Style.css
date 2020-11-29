@@ -1,0 +1,26 @@
+#tablaNoticias{
+    background-color: rgb(255, 255, 255);
+    border:  1px  inset  rgb(10, 10, 10) ;
+    align-items: center;
+}
+.noticia{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    align-items: center;
+    
+
+}
+.imagen{
+    border:  15px  inset  rgba(0, 0, 0, 0.055) ;
+    
+
+
+}
+.titulo{
+
+    color: rgba(1, 24, 126, 0.883);
+}

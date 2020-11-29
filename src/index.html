@@ -6,6 +6,8 @@
     <title>primer titulo</title>
 </head>
 <body>
+    <link rel="stylesheet" href="./style.css">
+    
     <header>
         <!--Punto 1. Sección superior, cabecera o header: esta sección deberá contar con el menú de
 navegación a tres páginas internas del sitio web y su respectivo enlace al inicio.
@@ -23,12 +25,42 @@ detalle de los servicios. El elemento donde están los servicios debe de tener u
 id=”services”-->
         </section>
         
-        <section>
-            <!--Punto 3. Sección de noticias: El estudiante encargado de la sección de noticias, deberá dividir
-el ancho del sitio web en 2 filas y dos columnas para presentar 4 noticias. Cada
-noticia debe contar con un resumen, una imagen y un enlace a leer la noticia
-completa.
-El elemento donde están los servicios debe de tener un id=”news”-->
+        <section id =" news">
+            <table id ="tablaNoticias">
+                <!--primer bloque-->
+                <tr>
+                    <!--primera noticia-->
+                    <td class = "noticia">
+                        <img class = "imagen" src="https://placeimg.com/300/200/tech" alt="imagen noticia">
+                        <p> <h2 class = "titulo">Las profesiones que podrían desaparecer por la Inteligencia Artificial </h2> <hr> <br> Uno de los interrogantes que desde siempre ha surgido con el desarrollo de la tecnología es si en algún punto esto puede acabar con puestos de empleo, debido a la automatización o la implementación de robots.(Tomado de EL TIEMPO)</p>
+                        <a href="https://www.eltiempo.com/tecnosfera/novedades-tecnologia/las-profesiones-que-seran-reemplazadas-con-la-inteligencia-artificial-551484">>Leer completa</a>
+                    </td>
+                    <!--segunda noticia-->
+                    <td class = "noticia">
+                        <img class = "imagen" src="https://placeimg.com/300/200/people" alt="imagen noticia">
+                        <p> <h2 class = "titulo">La herramienta Microsoft que monitorea cuánto estás trabajando </h2> <hr>  <br> En medio del trabajo remoto o teletrabajo en el que se encuentran aún cientos de miles de empleados en todo el mundo, una de las herramientas de Microsoft se ha popularizado, ya que le permite conocer a los empleadores cuánto está trabajando su empleado. (Tomado de EL TIEMPO) </p>
+                        <a href="https://www.eltiempo.com/tecnosfera/novedades-tecnologia/productivity-score-como-funciona-la-herramienta-de-microsoft-para-medir-el-trabajo-551530">>Leer completa</a>
+                    </td>
+
+                </tr>
+                <!--segundo bloque-->
+                <tr>
+                    <!--tercera noticia-->
+                    <td class = "noticia">
+                        <img class = "imagen" src="https://placeimg.com/300/200/arch" alt="imagen noticia">
+                        <p><h2 class = "titulo" >Tecnología 5,5G, el siguiente paso del 5G, ¿estamos cerca? </h2> <hr> <br> La empresa tecnológica china Huawei propuso una evolución de las redes de quinta generación (5G) denominada ‘5.5G’, que se centraría en mejorar las conexiones para permitir un uso industrial y en áreas como la conducción autónoma. (Tomado de EL TIEMPO) </p>
+                        <a href="https://www.eltiempo.com/tecnosfera/novedades-tecnologia/redes-5-5g-que-son-y-en-que-se-diferencia-de-la-5g-548818">>Leer completa</a>
+                    </td>
+                    <!--cuarta noticia-->
+                    <td class = "noticia">
+                        <img class = "imagen" src="https://placeimg.com/300/200/tech/sepia" alt="imagen noticia">
+                        <p><h2 class = "titulo">El tráfico de internet aumenta más del 66 % en la actual coyuntura </h2> <hr><br>Una de las preguntas que surgieron cuando el país comenzó la cuarentena estricta por la pandemia de covid-19, llevando a que miles de personas se quedaran en sus hogares y desempeñaran desde allí labores de trabajo y educación virtual, fue cómo soportaría la conectividad del país este incremento de demanda de internet. (Tomado de EL TIEMPO)</p>
+                        <a href="https://www.eltiempo.com/tecnosfera/novedades-tecnologia/internet-que-tan-elevada-es-la-conectividad-en-colombia-549066">>Leer completa</a>
+                    </td>
+
+                </tr>
+            </table>
+            
         </section>
         <section>
             <!--Punto 4. Sección de equipo: El estudiante deberá dividir el ancho del sitio entre el número de
