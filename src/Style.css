@@ -17,6 +17,11 @@
 .descripcion{
     font-weight: lighter;
 }
+.servicios{
+    display: flex;
+    background-color: #e0e2e4;
+    background-image: url("universe.jpg");
+}
 .serv{ 
     flex-direction: row;
     width: 30%;
@@ -29,4 +34,4 @@
     image-rendering: auto;
     }
 
-}
+
