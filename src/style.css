@@ -91,6 +91,31 @@ body{
 /* fin seccion 3 --------------------------------- */
 
 
+/* inicio seccion 4 --------------------------------- */
+
+
+.equipo{
+    display: flex;
+    background-color: #e0e2e4;
+    background-image: url("universe.jpg");
+}
+.contenedor{
+    flex-direction: row;
+    width: 19%;
+    background-color: #b3b5b6;
+    opacity: 0.85;
+    margin: 1% 1%;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    image-rendering: auto;
+    }
+.descripcion{
+    font-weight: lighter;
+}
+
+
+/* fin seccion 4 --------------------------------- */
 
 
 /* footer ---------------------------------- */
@@ -117,3 +142,11 @@ body{
     height: 80px;
 }
 /* fin footer ------------------------------ */
+
+
+
+
+
+
+
+
